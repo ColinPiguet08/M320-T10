@@ -1,21 +1,21 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessLogic {
+public class GuessNumberLogic {
+    Scanner scanner = new Scanner(System.in);
+    Random random = new Random();
+
     private void printWelcomeText() {
         System.out.println("Welcome to guess the number.");
     }
 
     public void handleUserInput() {
-        Scanner scanner = new Scanner(System.in);
-        Random random = new Random();
-
         int answer = random.nextInt(11);
         int guess;
         int tries = 10;
 
         printWelcomeText();
-        
+
         while (tries >= 0) {
             System.out.println("You have " + tries + " more tries.");
             System.out.println("Guess a number between 0 and 10: ");
