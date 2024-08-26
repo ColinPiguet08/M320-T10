@@ -5,7 +5,7 @@ public class GuessNumberLogic {
     Scanner scanner = new Scanner(System.in);
     Random random = new Random();
 
-    private void printWelcomeText() {
+    private void printText() {
         System.out.println("Welcome to guess the number.");
     }
 
@@ -14,7 +14,7 @@ public class GuessNumberLogic {
         int guess;
         int tries = 10;
 
-        printWelcomeText();
+        printText();
 
         while (tries >= 0) {
             System.out.println("You have " + tries + " more tries.");
