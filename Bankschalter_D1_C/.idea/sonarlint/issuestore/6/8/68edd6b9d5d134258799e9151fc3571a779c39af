@@ -1,0 +1,21 @@
+
+~
+java:S1854"6Remove this useless assignment to local variable "k3".(Ç´ºüùÿÿÿÿ8ª¢Æ—›2J$6b1c8dc0-39f4-4573-9e80-3e99d192072a
+o
+java:S1481"'Remove this unused "k3" local variable.(Ç´ºüùÿÿÿÿ8ª¢Æ—›2J$7599d27f-e8bc-4dd4-90d6-4383ccfea7b1
+m	java:S106"+Replace this use of System.out by a logger.(‚±×‚8¹¢Æ—›2J$f21b5107-8f42-4025-91e9-8e4e95a2b679
+r	java:S106"+Replace this use of System.out by a logger.(Ú„ÿÜşÿÿÿÿ8¹¢Æ—›2J$8a93bc2f-aab5-4511-94f7-220422188de2
+m	java:S106"+Replace this use of System.out by a logger.(‘ÇÜĞ8¹¢Æ—›2J$2fe6b421-3dfb-4aee-b11b-ad6d1b087303
+m	java:S106"+Replace this use of System.out by a logger.(áÂ±à8¹¢Æ—›2J$cfe4e02b-3900-44c4-876e-64f48833a7a6
+m	java:S106"+Replace this use of System.out by a logger.(ªÌäˆ8¹¢Æ—›2J$8d8c6ad2-ddd6-439b-97db-c099a9b41159
+m	java:S106""+Replace this use of System.out by a logger.(¼ÄÉ8¹¢Æ—›2J$e2b0d536-1677-4a48-b59c-4fc1bbf46626
+m	java:S106+"+Replace this use of System.out by a logger.(™²“õ8¹¢Æ—›2J$ab032c59-8633-47b0-a425-e54de6b87d6f
+m	java:S106,"+Replace this use of System.out by a logger.(•Õ®8¹¢Æ—›2J$0e93867a-6bbb-4e95-be18-a27b4532b3d2
+m	java:S106-"+Replace this use of System.out by a logger.(¸š¯Ğ8¹¢Æ—›2J$c341a8e7-cebb-4c09-ba73-57ae4cec555c
+m	java:S106."+Replace this use of System.out by a logger.(Õ¢8¹¢Æ—›2J$4904d6e2-19de-4f01-9679-3ebbe3deb200
+r	java:S106/"+Replace this use of System.out by a logger.(Ø·àìüÿÿÿÿ8É¢Æ—›2J$403c5bfb-8211-45a4-bcfd-8f37087082ca
+r	java:S1060"+Replace this use of System.out by a logger.(·‰Õüøÿÿÿÿ8É¢Æ—›2J$e897a491-2d52-471b-8e40-a9c1f604a097
+l	java:S1061"+Replace this use of System.out by a logger.(ğÕë.8É¢Æ—›2J$12044d3b-4990-4508-b211-54d858ca3d00
+r	java:S1062"+Replace this use of System.out by a logger.(àŞ»ºşÿÿÿÿ8É¢Æ—›2J$4767725e-d237-44f3-9b6d-86b5677e253c
+m	java:S1063"+Replace this use of System.out by a logger.(™²“õ8É¢Æ—›2J$4cbf63d1-27ff-41ab-bd92-a9090d1202c7
+m	java:S1066"+Replace this use of System.out by a logger.(êòÉæ8É¢Æ—›2J$cc2a29d4-2a13-47cf-9390-870ee750ccf7

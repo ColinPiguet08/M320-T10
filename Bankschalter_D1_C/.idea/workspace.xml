@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd10cba-04b0-4bac-ac64-bf86e920d1fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../GuessNumber/.idea/sonarlint/issuestore/f/a/fabca15415508a2cc2d10cea3fb73bc56896dc8f" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessNumber/.idea/sonarlint/issuestore/f/a/fabca15415508a2cc2d10cea3fb73bc56896dc8f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessNumber/src/GuessNumberLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessNumber/src/GuessNumberLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68edd6b9d5d134258799e9151fc3571a779c39af" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68edd6b9d5d134258799e9151fc3571a779c39af" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bankschalter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bankschalter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConvertor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConvertor/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;kenneth&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -54,6 +57,8 @@
       <updated>1724672972257</updated>
       <workItem from="1724672973247" duration="503000" />
       <workItem from="1724673494392" duration="4910000" />
+      <workItem from="1725283939129" duration="323000" />
+      <workItem from="1727075695511" duration="57000" />
     </task>
     <servers />
   </component>

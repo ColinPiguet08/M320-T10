@@ -1,12 +1,10 @@
 import java.util.Scanner;
-import java.util.UUID;
-
 public class Bankschalter {
     public static void main(String[] args) {
         Konto k1 = new Konto("32893295", 200.00);
         Konto k2 = new Konto("21435133", 300.00);
         Konto k3 = new Konto("28972356", 100.00);
-        UUID.randomUUID()
+
         Scanner scanner = new Scanner(System.in);
         boolean exit = false;
 
