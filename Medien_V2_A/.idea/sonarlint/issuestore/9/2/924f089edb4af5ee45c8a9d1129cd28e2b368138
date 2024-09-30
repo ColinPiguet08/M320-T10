@@ -1,20 +1,19 @@
 
-‹
-java:S1192"HDefine a constant instead of duplicating this literal "Titel: " 3 times.(——Ÿª8ÙƒŸõ¡2J$bf431379-f573-4884-a68b-8946e425306d
-r	java:S106	"+Replace this use of System.out by a logger.(…œò—øÿÿÿÿ8ôÓ˜î¡2J$11179c04-416e-42f0-91dd-166bda44e0a2
-m	java:S106
-"+Replace this use of System.out by a logger.(ô“Á¹8ƒÔ˜î¡2J$ef205e1e-5cf0-429c-8e35-6810bd5fc71a
-m	java:S106"+Replace this use of System.out by a logger.(Öæó8…Ô˜î¡2J$59661ddb-5a65-48b4-b5e6-f392ea5b49cb
-l	java:S106"+Replace this use of System.out by a logger.(”è=8†Ô˜î¡2J$1965648c-49ef-4ef4-ab9d-d66ce4bb8db5
-m	java:S106"+Replace this use of System.out by a logger.(‰ıºñ8“Ô˜î¡2J$fefa674a-8066-4526-9a6f-31fbb538b007
-r	java:S106"+Replace this use of System.out by a logger.(êˆıçøÿÿÿÿ8”Ô˜î¡2J$e23307cc-9be2-4310-b104-85493706fa0d
-m	java:S106"+Replace this use of System.out by a logger.(ÀŠ’ã8¢Ô˜î¡2J$2e610671-e7b5-4fc5-841c-73115d5bba30
-m	java:S106"+Replace this use of System.out by a logger.(——Ÿª8²Ô˜î¡2J$830b809e-e5fc-4561-bc40-36a9930d2b93
-m	java:S106"+Replace this use of System.out by a logger.(óõ‰8²Ô˜î¡2J$7642edec-9dbf-4e18-bd61-58bb121fb277
-r	java:S106"+Replace this use of System.out by a logger.(‹ÅıÙûÿÿÿÿ8²Ô˜î¡2J$3a0e2d08-69de-4ffd-b38e-c5ecad64139c
-m	java:S106!"+Replace this use of System.out by a logger.(¢Íú8²Ô˜î¡2J$258a6b51-020f-49e1-a5be-5f98660210de
-m	java:S106&"+Replace this use of System.out by a logger.(úÁµµ8²Ô˜î¡2J$95a2cfe6-951e-4397-b619-4228307c25af
-m	java:S106/"+Replace this use of System.out by a logger.(——Ÿª8ÂÔ˜î¡2J$8143a43d-8723-41c9-ad88-f2b3a2799e00
-m	java:S1065"+Replace this use of System.out by a logger.(——Ÿª8ÂÔ˜î¡2J$d5ced8ff-22a1-4d58-8428-6bcb147f4c3b
-r	java:S106;"+Replace this use of System.out by a logger.(Ü†ãäûÿÿÿÿ8ÂÔ˜î¡2J$3eae5a5c-0abc-451b-9990-ef88fa0afc43
-m	java:S106@"+Replace this use of System.out by a logger.(ïîë8ÂÔ˜î¡2J$ba4eeace-8c40-4edd-9e66-742bd3da9d72
+e
+java:S1192#"HDefine a constant instead of duplicating this literal "Titel: " 3 times.(——Ÿª8çÖû˜¤2
+r	java:S106"+Replace this use of System.out by a logger.(…œò—øÿÿÿÿ8ÂÔ˜î¡2J$3b1e55f2-a049-4ba5-a7f8-7f183397272e
+G	java:S106"+Replace this use of System.out by a logger.(ô“Á¹8¦×û˜¤2
+G	java:S106"+Replace this use of System.out by a logger.(Öæó8¦×û˜¤2
+F	java:S106"+Replace this use of System.out by a logger.(”è=8¦×û˜¤2
+G	java:S106"+Replace this use of System.out by a logger.(‰ıºñ8¦×û˜¤2
+L	java:S106"+Replace this use of System.out by a logger.(êˆıçøÿÿÿÿ8¶×û˜¤2
+G	java:S106!"+Replace this use of System.out by a logger.(ÀŠ’ã8¶×û˜¤2
+G	java:S106#"+Replace this use of System.out by a logger.(——Ÿª8¶×û˜¤2
+G	java:S106%"+Replace this use of System.out by a logger.(óõ‰8¶×û˜¤2
+L	java:S106)"+Replace this use of System.out by a logger.(‹ÅıÙûÿÿÿÿ8¶×û˜¤2
+G	java:S106."+Replace this use of System.out by a logger.(¢Íú8¶×û˜¤2
+G	java:S1063"+Replace this use of System.out by a logger.(úÁµµ8¶×û˜¤2
+G	java:S106>"+Replace this use of System.out by a logger.(——Ÿª8¶×û˜¤2
+G	java:S106E"+Replace this use of System.out by a logger.(——Ÿª8¶×û˜¤2
+L	java:S106L"+Replace this use of System.out by a logger.(Ü†ãäûÿÿÿÿ8¶×û˜¤2
+G	java:S106R"+Replace this use of System.out by a logger.(ïîë8¶×û˜¤2
