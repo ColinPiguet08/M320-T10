@@ -4,7 +4,7 @@ import enums.Position;
 import Exceptions.InvalidAttributeValueException;
 
 public class UserInterface {
-    private static final int TOTAL_POINTS = 780;
+    private static final int TOTAL_POINTS = 455;
     private static final int MIN_ATTRIBUTE_VALUE = 25;
 
     public void start() {
