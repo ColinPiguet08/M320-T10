@@ -1,6 +1,17 @@
 public class RatingCalculator {
-    public int calculateOverall(PlayerBuild playerName) {
-        // TODO: Implement method
+    private static RatingCalculator instance;
+
+    private RatingCalculator() {}
+
+    public static synchronized RatingCalculator getInstance() {
+        if (instance == null) {
+            instance = new RatingCalculator();
+        }
+        return instance;
+    }
+
+    public int calculateOverall(PlayerBuild playerBuild) {
+        // Methode implementieren
         return 0;
     }
 }
