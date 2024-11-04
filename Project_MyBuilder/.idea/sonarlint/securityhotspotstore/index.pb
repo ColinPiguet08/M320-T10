@@ -18,3 +18,5 @@ I
 src/RatingCalculator.java,e\1\e119d001199ba254f52b733541405b7526c9a85e
 F
 src/UserInterface.java,c\f\cf7ae9538c1ba134b18de36259898977d11000ef
+G
+src/AttributeLogic.java,9\4\9443b80bb066d9243a5a37848c70e04a2ca086b7

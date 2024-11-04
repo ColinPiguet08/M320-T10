@@ -11,6 +11,15 @@ public class Attribute {
 
     public String getName() { return name; }
     public int getValue() { return value; }
-    public void setValue(int value) { this.value = Math.min(value, cap); }
     public int getCap() { return cap; }
+    public void setValue(int value) {
+        this.value = Math.min(value, cap);
+    }
+
+    public void setCap(int cap) {
+        this.cap = cap;
+        if (this.value > this.cap) {
+            this.value = this.cap;
+        }
+    }
 }
