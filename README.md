@@ -6,5 +6,13 @@ In this project, we're creating a customizable basketball player using Java. Ins
 
 ![image](https://github.com/user-attachments/assets/3e13ce5b-896e-4d9c-83df-ce4be9594271)
 
+---
+
+## Architekturdiagramm mti Draw.io(Klassendiagramm) 
+![image](https://github.com/user-attachments/assets/319019a4-b22e-4f06-b1f4-c00dce50048f)
+
+---
+
+
 #### Copyright Notice - NBA 2K:
 This project is inspired by the NBA 2K series and its player creation features. This project is for educational purposes only.
