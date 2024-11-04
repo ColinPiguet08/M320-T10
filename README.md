@@ -8,11 +8,20 @@ In this project, we're creating a customizable basketball player using Java. Ins
 
 ---
 
-## Architekturdiagramm mti Draw.io(Klassendiagramm) 
+## Architekturdiagramm mit Draw.io(Klassendiagramm) 
 ![image](https://github.com/user-attachments/assets/319019a4-b22e-4f06-b1f4-c00dce50048f)
 
 ---
 
+## Fertiges Klassendiagramm mit Draw.io
+![uml_projekt drawio](https://github.com/user-attachments/assets/0059d90b-19d4-4e0c-a2f2-9bf4df48a72c)
+
+---
+
+##  Sequenz Diagramm mit Draw.io
+![sequenzDiagramm drawio](https://github.com/user-attachments/assets/d5236ba6-121c-4a55-a29a-2a96be72bc03)
+
+---
 
 #### Copyright Notice - NBA 2K:
 This project is inspired by the NBA 2K series and its player creation features. This project is for educational purposes only.
