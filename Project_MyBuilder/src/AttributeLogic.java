@@ -4,19 +4,19 @@ public class AttributeLogic {
     public PlayerBuild initializeAttributeCaps(PlayerBuild playerBuild, double height) {
         switch (playerBuild.getPosition()) {
             case POINT_GUARD:
-                setPointGuardAttributeCaps(playerBuild, height);
+                setPointGuardAttributeCaps(playerBuild, playerBuild.getHeight());
                 break;
             case SHOOTING_GUARD:
-                setShootingGuardAttributeCaps(playerBuild, height);
+                setShootingGuardAttributeCaps(playerBuild, playerBuild.getHeight());
                 break;
             case SMALL_FORWARD:
-                setSmallForwardAttributeCaps(playerBuild, height);
+                setSmallForwardAttributeCaps(playerBuild, playerBuild.getHeight());
                 break;
             case POWER_FORWARD:
-                setPowerForwardAttributeCaps(playerBuild, height);
+                setPowerForwardAttributeCaps(playerBuild);
                 break;
             case CENTER:
-                setCenterAttributeCaps(playerBuild, height);
+                setCenterAttributeCaps(playerBuild);
                 break;
         }
         return playerBuild;
@@ -73,7 +73,7 @@ public class AttributeLogic {
         attributes.get("Strength").setCap((height < 6.5) ? 60 : 70);
     }
 
-    private void setPowerForwardAttributeCaps(PlayerBuild playerBuild, double height) {
+    private void setPowerForwardAttributeCaps(PlayerBuild playerBuild) {
         Map<String, Attribute> attributes = playerBuild.getAttributes();
         attributes.get("Layup").setCap(85);
         attributes.get("Dunk").setCap(90);
@@ -90,7 +90,7 @@ public class AttributeLogic {
         attributes.get("Strength").setCap(75);
     }
 
-    private void setCenterAttributeCaps(PlayerBuild playerBuild, double height) {
+    private void setCenterAttributeCaps(PlayerBuild playerBuild) {
         Map<String, Attribute> attributes = playerBuild.getAttributes();
         attributes.get("Layup").setCap(85);
         attributes.get("Dunk").setCap(95);
