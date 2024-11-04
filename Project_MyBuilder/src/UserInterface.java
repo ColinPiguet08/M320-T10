@@ -48,7 +48,8 @@ public class UserInterface {
         System.out.println("Player created: " + playerName + ", Position: " + position + ", Height: " + height + " ft");
 
         setAttributePoints(scanner, player);
-        System.out.println("Attribute allocation complete. Player details: " + player);
+        System.out.println("You have completed your build. Player details: " + player);
+        displayAttributes(player);
     }
 
     private void setAttributePoints(Scanner scanner, PlayerBuild player) {
@@ -56,12 +57,19 @@ public class UserInterface {
 
         int remainingPoints = TOTAL_POINTS;
         while (remainingPoints > 0) {
-            System.out.println("You have " + remainingPoints + " points remaining.");
+            System.out.println("\nYou have " + remainingPoints + " points remaining.");
             for (Map.Entry<String, Attribute> entry : attributes.entrySet()) {
                 Attribute attribute = entry.getValue();
+
+                // If no points are left, break out of the loop
+                if (remainingPoints <= 0) {
+                    System.out.println("No points remaining. Attribute allocation is complete.");
+                    return;
+                }
+
                 int value = -1;
                 while (value < 0 || value > attribute.getCap() || (remainingPoints - value) < 0) {
-                    System.out.println("Enter value for " + attribute.getName() + " (max " + attribute.getCap() + "):");
+                    System.out.println("Enter value for " + attribute.getName() + " (max " + attribute.getCap() + ", current: " + attribute.getValue() + "):");
                     value = scanner.hasNextInt() ? scanner.nextInt() : -1;
                     scanner.nextLine();
 
@@ -71,7 +79,7 @@ public class UserInterface {
                 }
                 attribute.setValue(value);
                 remainingPoints -= value;
-                System.out.println("Remaining points: " + remainingPoints);
+                System.out.println("Updated " + attribute.getName() + " to " + value + ". Remaining points: " + remainingPoints);
             }
 
             if (remainingPoints > 0) {
@@ -79,8 +87,16 @@ public class UserInterface {
             }
         }
 
+        System.out.println("All points allocated.");
+    }
+
+    public void displayAttributes(PlayerBuild player) {
+        System.out.println("\n--- Current Attribute Status ---");
+        Map<String, Attribute> attributes = player.getAttributes();
+
         for (Map.Entry<String, Attribute> entry : attributes.entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue().getValue());
+            Attribute attribute = entry.getValue();
+            System.out.println(attribute.getName() + ": " + attribute.getValue() + "/" + attribute.getCap());
         }
     }
 }
