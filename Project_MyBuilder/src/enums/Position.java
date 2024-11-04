@@ -1,29 +1,29 @@
 package enums;
 
 public enum Position {
-    POINT_GUARD(5.9, 6.6),
-    SHOOTING_GUARD(6.2, 6.8),
-    SMALL_FORWARD(6.4, 6.10),
-    POWER_FORWARD(6.6, 7.0),
-    CENTER(6.8, 7.2);
+    POINT_GUARD(175, 198),
+    SHOOTING_GUARD(188, 203),
+    SMALL_FORWARD(193, 210),
+    POWER_FORWARD(198, 213),
+    CENTER(203, 218);
 
-    private final double minHeight;
-    private final double maxHeight;
+    private final int minHeightCm;
+    private final int maxHeightCm;
 
-    Position(double minHeight, double maxHeight) {
-        this.minHeight = minHeight;
-        this.maxHeight = maxHeight;
+    Position(int minHeightCm, int maxHeightCm) {
+        this.minHeightCm = minHeightCm;
+        this.maxHeightCm = maxHeightCm;
     }
 
-    public double getMinHeight() {
-        return minHeight;
+    public int getMinHeightCm() {
+        return minHeightCm;
     }
 
-    public double getMaxHeight() {
-        return maxHeight;
+    public int getMaxHeightCm() {
+        return maxHeightCm;
     }
 
-    public boolean isWithinHeightRange(double height) {
-        return height >= minHeight && height <= maxHeight;
+    public boolean isWithinHeightRange(int heightCm) {
+        return heightCm >= minHeightCm && heightCm <= maxHeightCm;
     }
 }
