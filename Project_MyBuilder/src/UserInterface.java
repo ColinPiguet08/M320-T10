@@ -24,28 +24,28 @@ public class UserInterface {
             }
         }
 
-        double height = -1;
-        while (height == -1) {
-            System.out.println("Enter height in feet (e.g., 6.4):");
-            if (scanner.hasNextDouble()) {
-                height = scanner.nextDouble();
+        int heightCm = -1;
+        while (heightCm == -1) {
+            System.out.println("Enter height in centimeters (e.g., 193):");
+            if (scanner.hasNextInt()) {
+                heightCm = scanner.nextInt();
                 scanner.nextLine();
 
-                if (!position.isWithinHeightRange(height)) {
-                    System.out.println("Height out of range for " + position + " (" + position.getMinHeight() + " - " + position.getMaxHeight() + " ft). Try again.");
-                    height = -1;
+                if (!position.isWithinHeightRange(heightCm)) {
+                    System.out.println("Height out of range for " + position + " (" + position.getMinHeightCm() + " - " + position.getMaxHeightCm() + " cm). Try again.");
+                    heightCm = -1;
                 }
             } else {
-                System.out.println("Invalid input. Please enter a valid height.");
+                System.out.println("Invalid input. Please enter a valid height in centimeters.");
                 scanner.nextLine();
             }
         }
 
-        PlayerBuild player = new PlayerBuild(playerName, position, height);
+        PlayerBuild player = new PlayerBuild(playerName, position, heightCm);
         AttributeLogic attributeLogic = new AttributeLogic();
-        attributeLogic.initializeAttributeCaps(player, height);
+        attributeLogic.initializeAttributeCaps(player, heightCm);
 
-        System.out.println("Player created: " + playerName + ", Position: " + position + ", Height: " + height + " ft");
+        System.out.println("Player created: " + playerName + ", Position: " + position + ", Height: " + heightCm + " cm");
 
         setAttributePoints(scanner, player);
         System.out.println("Attribute allocation complete. Player details: " + player);
