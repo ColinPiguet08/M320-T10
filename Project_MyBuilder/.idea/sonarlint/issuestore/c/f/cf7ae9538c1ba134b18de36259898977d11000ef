@@ -1,17 +1,29 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(¾Á¥Ğşÿÿÿÿ8Ğ²…½¯2J$ef8ff102-e8be-470a-8d69-c5e94738dfb8
-r	java:S106"+Replace this use of System.out by a logger.(óÑ…æûÿÿÿÿ8Ğ²…½¯2J$bf9711ab-c711-4ac8-97a9-f573410cf827
-r	java:S106"+Replace this use of System.out by a logger.(øËÕŞùÿÿÿÿ8Ğ²…½¯2J$b891f1cf-778a-4315-a7e5-44eb8a47ff62
-G	java:S106"+Replace this use of System.out by a logger.(ìÂó8²ñŸ½¯2
-L	java:S106#"+Replace this use of System.out by a logger.(ß¥Ë·øÿÿÿÿ8²ñŸ½¯2
-L	java:S106'"+Replace this use of System.out by a logger.(²é‰Ëøÿÿÿÿ8²ñŸ½¯2
-L	java:S1060"+Replace this use of System.out by a logger.(œğ©³üÿÿÿÿ8¸ñŸ½¯2
-L	java:S1063"+Replace this use of System.out by a logger.(Õ¦ÕÄûÿÿÿÿ8¸ñŸ½¯2
+r	java:S106"+Replace this use of System.out by a logger.(³ğ“şÿÿÿÿ8ÇÊ¾¯2J$79008046-fb0d-42d8-91d7-7a606c4d27dd
+m	java:S106"+Replace this use of System.out by a logger.(ŒÖ¥ˆ8ÈÊ¾¯2J$81d81f9a-ef1b-49a5-9076-1c88aaf87804
+r	java:S106"+Replace this use of System.out by a logger.(Şé­Îûÿÿÿÿ8ÉÊ¾¯2J$096ed6c4-6fdc-45d8-9758-86d47c909824
+m	java:S106"+Replace this use of System.out by a logger.(šİß¦8ÊÊ¾¯2J$a982ed7c-14db-4392-9103-77b09c8a2c26
+m	java:S106"+Replace this use of System.out by a logger.(äìÎÆ8ÌÊ¾¯2J$8a2838d4-ed51-458d-9919-0c71b780c723
+l	java:S106%"+Replace this use of System.out by a logger.(˜º÷	8×Ê¾¯2J$2a4189dd-2660-43fe-a823-cdf839a3a3a9
+l	java:S106&"+Replace this use of System.out by a logger.(ªËÏ8ÙÊ¾¯2J$38a68639-5dd7-454e-bb49-33b875babdd8
+F	java:S106'"+Replace this use of System.out by a logger.(“Ó‡^8÷Ê˜¾¯2
+L	java:S106."+Replace this use of System.out by a logger.(øËÕŞùÿÿÿÿ8÷Ê˜¾¯2
+L	java:S1067"+Replace this use of System.out by a logger.(®¡—äûÿÿÿÿ8÷Ê˜¾¯2
+L	java:S106="+Replace this use of System.out by a logger.(ß¥Ë·øÿÿÿÿ8÷Ê˜¾¯2
+L	java:S106A"+Replace this use of System.out by a logger.(²é‰Ëøÿÿÿÿ8ÿÊ˜¾¯2
 t
-java:S37766"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(¦ÖÅ÷ùÿÿÿÿ8¸ñŸ½¯2
-L	java:S106;"+Replace this use of System.out by a logger.(òÑŸÒşÿÿÿÿ8ÁñŸ½¯2
-G	java:S106@"+Replace this use of System.out by a logger.(ñˆúô8ÁñŸ½¯2
-G	java:S106E"+Replace this use of System.out by a logger.(ÈÕ÷ğ8ÁñŸ½¯2
-G	java:S106J"+Replace this use of System.out by a logger.(‹²Û…8ÁñŸ½¯2
-G	java:S106N"+Replace this use of System.out by a logger.(¾Áäş8ÈñŸ½¯2
-L	java:S106S"+Replace this use of System.out by a logger.(¾Â´µûÿÿÿÿ8ÈñŸ½¯2
+java:S3776H"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ßåûĞıÿÿÿÿ8ˆË˜¾¯2
+G	java:S106M"+Replace this use of System.out by a logger.(•ÔàÜ8ˆË˜¾¯2
+L	java:S106R"+Replace this use of System.out by a logger.(ç¶¤Õşÿÿÿÿ8ˆË˜¾¯2
+L	java:S106X"+Replace this use of System.out by a logger.(¿ôÁÇüÿÿÿÿ8˜Ë˜¾¯2
+L	java:S106e"+Replace this use of System.out by a logger.(Œû¹ãüÿÿÿÿ8˜Ë˜¾¯2
+G	java:S106i"+Replace this use of System.out by a logger.(ŸşÚ8˜Ë˜¾¯2
+L	java:S106l"+Replace this use of System.out by a logger.(ÏóÇİøÿÿÿÿ8˜Ë˜¾¯2
+F	java:S106p"+Replace this use of System.out by a logger.(íš¼o8˜Ë˜¾¯2
+”
+java:S3457q"Q%n should be used in place of \n to produce the platform-specific line separator.(Ö²Ù8Ğù…¾¯2J$a2f218bb-e468-4aa1-84aa-0f50d8219b4d
+G	java:S106q"+Replace this use of System.out by a logger.(Ö²Ù8©Ë˜¾¯2
+™
+java:S3457v"Q%n should be used in place of \n to produce the platform-specific line separator.(¢Ø—şÿÿÿÿ8Ğù…¾¯2J$ef28cb8f-7564-4004-a60a-5165487b7614
+L	java:S106v"+Replace this use of System.out by a logger.(¢Ø—şÿÿÿÿ8©Ë˜¾¯2
+G	java:S106x"+Replace this use of System.out by a logger.(êç‹±8©Ë˜¾¯2

@@ -20,3 +20,7 @@ F
 src/UserInterface.java,c\f\cf7ae9538c1ba134b18de36259898977d11000ef
 G
 src/AttributeLogic.java,9\4\9443b80bb066d9243a5a37848c70e04a2ca086b7
+g
+7src/Exceptions/InvalidAttributeAllocationException.java,8\a\8a37f441fbf828c20f0ec5c5f20181d54fc90525
+b
+2src/Exceptions/InvalidAttributeValueException.java,e\6\e6977d0dd9295a9564b1bdbebf95c4017a91796f
