@@ -24,3 +24,13 @@ g
 7src/Exceptions/InvalidAttributeAllocationException.java,8\a\8a37f441fbf828c20f0ec5c5f20181d54fc90525
 b
 2src/Exceptions/InvalidAttributeValueException.java,e\6\e6977d0dd9295a9564b1bdbebf95c4017a91796f
+F
+src/ShootingBadge.java,9\5\95e41a123aa3b580c10ee57455160aeb5b25da25
+G
+src/DefensiveBadge.java,7\2\723ab45d19747895d64f515d59a9ed2fe3b9073b
+M
+src/CustomAttributeBadge.java,2\e\2ec9617216060495a86dcef43b6b3be31121fa29
+>
+src/djask.java,9\9\9974661f54f96e17a91b043e21c0d85af6a409f4
+J
+src/SharpshooterBadge.java,7\c\7c31d7b95c6f32732d4282ed64e35216179b2ced

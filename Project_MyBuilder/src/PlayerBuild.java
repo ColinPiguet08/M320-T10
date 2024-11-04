@@ -63,5 +63,7 @@ public class PlayerBuild {
         return badges;
     }
 
-
+    public Attribute getAttribute(String attributeName) {
+        return attributes.get(attributeName);
+    }
 }

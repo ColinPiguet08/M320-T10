@@ -1,3 +1,5 @@
 
-t
-java:S1172"1Remove this unused method parameter "playerName".(ÊëËø8æÓ‚Æ®2J$69b09890-2c88-4dca-881f-a4465df91d60
+»
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Äïâ¨ÿÿÿÿÿ8ï‹ÙÀ¯2
+T
+java:S1172"2Remove this unused method parameter "playerBuild".(©ã¼şÿÿÿÿ8ÿ‹ÙÀ¯2

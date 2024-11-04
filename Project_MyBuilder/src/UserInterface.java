@@ -5,6 +5,7 @@ import Exceptions.InvalidAttributeValueException;
 
 public class UserInterface {
     private static final int TOTAL_POINTS = 780;
+    private static final int MIN_ATTRIBUTE_VALUE = 25;
 
     public void start() {
         Scanner scanner = new Scanner(System.in);
@@ -75,6 +76,7 @@ public class UserInterface {
         int remainingPoints = TOTAL_POINTS;
         while (remainingPoints > 0) {
             System.out.println("\nPoints remaining: " + remainingPoints);
+
             for (Map.Entry<String, Attribute> entry : attributes.entrySet()) {
                 Attribute attribute = entry.getValue();
 
@@ -84,20 +86,24 @@ public class UserInterface {
                 }
 
                 int value = -1;
-                while (value < 0 || value > attribute.getCap() || (remainingPoints - value) < 0) {
-                    System.out.print("Set value for " + attribute.getName() + " (Max: " + attribute.getCap() + ", Current: " + attribute.getValue() + "): ");
+                while (value < MIN_ATTRIBUTE_VALUE || value > attribute.getCap() || (remainingPoints - (value - attribute.getValue())) < 0) {
+                    System.out.print("Set value for " + attribute.getName() + " (Min: " + MIN_ATTRIBUTE_VALUE + ", Max: " + attribute.getCap() + ", Current: " + attribute.getValue() + "): ");
                     value = scanner.hasNextInt() ? scanner.nextInt() : -1;
                     scanner.nextLine();
 
-                    if (value < 0 || value > attribute.getCap() || (remainingPoints - value) < 0) {
+                    int pointsRequired = value - attribute.getValue();
+
+                    if (value < MIN_ATTRIBUTE_VALUE || value > attribute.getCap() || pointsRequired < 0 || remainingPoints - pointsRequired < 0) {
                         throw new InvalidAttributeValueException(
-                                "Invalid value for " + attribute.getName() + ". Value must be between 0 and " + attribute.getCap() +
+                                "Invalid value for " + attribute.getName() + ". Value must be between " + MIN_ATTRIBUTE_VALUE + " and " + attribute.getCap() +
                                         ", and you need enough remaining points. Remaining points: " + remainingPoints
                         );
                     }
                 }
+
+                int pointsUsed = value - attribute.getValue();
                 attribute.setValue(value);
-                remainingPoints -= value;
+                remainingPoints -= pointsUsed;
                 System.out.println(attribute.getName() + " set to " + value + ". Remaining points: " + remainingPoints);
             }
 
@@ -116,6 +122,12 @@ public class UserInterface {
         for (Map.Entry<String, Attribute> entry : attributes.entrySet()) {
             Attribute attribute = entry.getValue();
             System.out.printf("%-20s %-10d %-10d\n", attribute.getName(), attribute.getValue(), attribute.getCap());
+        }
+
+        if (player.getAttribute("3 Point").getValue() > 79 || player.getAttribute("Mid Range").getValue() > 79) {
+            Badge shootingBadge = new ShootingBadge();
+            player.getBadges().add(shootingBadge);
+            System.out.println("\nYour Build has the following Badge: " + shootingBadge.getName() + " - " + shootingBadge.getDescription());
         }
         System.out.println("--------------------------------------");
     }
